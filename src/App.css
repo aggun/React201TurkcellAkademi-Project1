@@ -1,0 +1,26 @@
+.App {
+display: flex;
+width: auto;
+margin: auto
+}
+
+.App > div {
+flex: 1;
+border: solid 1px #ccc;
+padding: 10px;
+}
+
+table,
+td{
+  margin: 0;
+  padding: 0;
+  list-style-type: disc;
+}
+
+.users-td td:hover{
+  cursor: pointer;
+  color: blue;
+}
+
+
+
